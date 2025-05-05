@@ -24,6 +24,7 @@ builder.Services.AddDbContext<TestMandiriContext>(options =>
 
 // Menambahkan AuthService dan IAuthService ke DI container
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IItemService, ItemService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

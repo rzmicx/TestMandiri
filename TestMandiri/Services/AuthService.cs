@@ -54,7 +54,7 @@ namespace TestMandiri.Services
             return "Login berhasil.";
         }catch (Exception ex)
             {
-                LoggerHelper.LogError(nameof(Register), ex);
+                LoggerHelper.LogError(nameof(Login), ex);
                 return "login gagal tolong hubungi support";
             }
         }
