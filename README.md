@@ -1,4 +1,3 @@
-Repository untuk Mengerjakan Test
 Repository ini saya buat sebagai bagian dari pengerjaan test yang diberikan. Semoga apa yang ada di sini dapat memenuhi kebutuhan terkait test yang telah diberikan
 
 Folder database backup: Berisi file backup database dan juga query untuk generate table dan data yang digunakan untuk keperluan test.
